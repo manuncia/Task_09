@@ -1,13 +1,11 @@
 #' Squares function
 #' This functions takes the squares of the values.
-#'
-#' @param x numeric values to be squared
-#' @return square value of the input (x)
+#' @param x
+#' @return value
 #' @export
+#' @examples
 
-value_square = function(x)
+value_square <- function(x)
   {
   return(x^2)
 }
-
-?value_square
